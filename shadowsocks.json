@@ -1,0 +1,14 @@
+{
+    "server": "usa-lax03.hellossr.com",
+    "local_address": "127.0.0.1",
+    "local_port": 1080,
+    "timeout": 300,
+    "workers": 1,
+    "server_port": 18348,
+    "password": "qwQm0B",
+    "method": "aes-128-cfb",
+    "obfs": "http_simple",
+    "obfs_param": "e1c8830166.wns.windows.com",
+    "protocol": "auth_aes128_sha1",
+    "protocol_param": "30166:HOewZV"
+}

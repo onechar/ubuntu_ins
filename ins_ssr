@@ -1,0 +1,8 @@
+#!/bin/bash
+#ssr_install.sh
+git clone https://github.com/ssrbackup/shadowsocksr ~/shadowsocksr
+sudo apt install screen
+sudo cp ~/ubuntu_ins/shadowsocks.json /etc/shadowsocks.json
+sudo apt install polipo
+sudo cp -f ~/ubuntu_ins/config /etc/polipo/config
+sudo /etc/init.d/polipo restart
